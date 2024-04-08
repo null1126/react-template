@@ -8,7 +8,7 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh', 'prettier'],
+  plugins: ['react-refresh', 'simple-import-sort', 'prettier'],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
@@ -16,6 +16,9 @@ module.exports = {
     ],
     'prettier/prettier': 'error',
     // 禁止使用var
-    'no-var': 'error'
+    'no-var': 'error',
+    // 导入模块排序
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error'
   }
 }
