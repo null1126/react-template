@@ -17,6 +17,8 @@ module.exports = {
     'prettier/prettier': 'error',
     // 禁止使用var
     'no-var': 'error',
+    // 可以使用any
+    '@typescript-eslint/no-explicit-any': 'off',
     // 导入模块排序
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error'
